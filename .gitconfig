@@ -1,0 +1,8 @@
+[user]
+	name = Cory Reed
+	email = creed@mrn.org
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
+[push]
+	default = simple

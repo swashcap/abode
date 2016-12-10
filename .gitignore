@@ -1,0 +1,12 @@
+*
+!.bash_profile
+!.bashrc
+!.fzf.bash
+!.git-completion.bash
+!.gitconfig
+!.gitignore
+!.gitignore_global
+!.tmux.conf
+!.vimrc
+!LICENSE
+!README.md
