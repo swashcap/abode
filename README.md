@@ -16,14 +16,13 @@ $ rm -rf abode
 Install Homebrew:
 
 ```shell
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Then, install these:
 
 ```shell
-$ brew install git multimarkdown reattach-to-user-namespace \
-  the_silver_searcher tree tmux vim watchman
+brew install git multimarkdown reattach-to-user-namespace the_silver_searcher tree tmux vim watchman
 ```
 
 ### vim plugins
