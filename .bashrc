@@ -19,6 +19,7 @@ alias gs='for d in ./*/ ; do (echo $d; git -C "$d" status -bs); done'
 
 # Set env vars
 export NODE_ENV=development
+export COINS_ENV=development
 export PS1='\w$ '
 
 export PATH="$HOME/.bin/git-recent:$HOME/.rbenv/bin:$PATH"
@@ -36,6 +37,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # http://stackoverflow.com/a/2596835
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+export ANDROID_HOME=~/Library/Android/sdk
 
 # Chris's .mov to .gif h0tness
 movToGif() {
@@ -58,3 +61,6 @@ alias jola="networksetup -setv6off Wi-Fi"
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
+
+# Rustup it up!
+source $HOME/.cargo/env
