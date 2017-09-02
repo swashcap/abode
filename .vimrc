@@ -28,6 +28,7 @@ filetype indent plugin on
 syntax enable
 set background=dark
 colorscheme solarized
+:call togglebg#map("<F5>")
 
 " Set column width
 " http://stackoverflow.com/a/3765575
