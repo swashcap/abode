@@ -8,6 +8,7 @@
 !*.gitconfig
 !*.gitignore
 !*.gitignore_global
+!*.npmrc
 !*.tmux.conf
 !*.vimrc
 !*LICENSE
