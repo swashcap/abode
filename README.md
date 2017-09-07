@@ -58,3 +58,11 @@ Create a `.bash_local` file for any environment-related secrets:
 $ touch .bash_local
 ```
 
+### [rbenv](https://github.com/rbenv/rbenv) and [ruby-build](https://github.com/rbenv/ruby-build#readme)
+
+```shell
+$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+$ cd ~/.rbenv && src/configure && make -C src
+$ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+```
+
