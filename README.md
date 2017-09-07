@@ -25,6 +25,12 @@ Then, install these:
 brew install git multimarkdown reattach-to-user-namespace the_silver_searcher tree tmux vim watchman
 ```
 
+Optionally, install the [quick-look plugins](https://github.com/sindresorhus/quick-look-plugins):
+
+```shell
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json quicklook-csv
+```
+
 ### vim plugins
 
 Install [pathogen](https://github.com/tpope/vim-pathogen/):
