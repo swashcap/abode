@@ -63,4 +63,5 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 
 # Rustup it up!
-source $HOME/.cargo/env
+[ -d $HOME/.cargo ] && . $HOME/.cargo/env
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
