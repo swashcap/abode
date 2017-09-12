@@ -66,3 +66,17 @@ $ cd ~/.rbenv && src/configure && make -C src
 $ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
 
+### nvm
+
+Install [nvm](https://github.com/creationix/nvm) for managing Node.js versions:
+
+```shell
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+```
+
+### Extras
+
+* [tomislav/osx-terminal.app-colors-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
+* [Input from Font Bureau](http://input.fontbureau.com)
+* [Docker for Mac](https://www.docker.com/docker-mac)
+

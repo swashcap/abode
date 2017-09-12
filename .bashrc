@@ -3,7 +3,7 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 if [ -f ~/.tmuxinator-completion.bash ]; then
   source ~/.tmuxinator-completion.bash
@@ -19,7 +19,7 @@ alias gs='for d in ./*/ ; do (echo $d; git -C "$d" status -bs); done'
 
 # Set env vars
 export NODE_ENV=development
-export COINS_ENV=development
+# export COINS_ENV=development
 export PS1='\w$ '
 
 export PATH="$HOME/.bin/git-recent:$HOME/.rbenv/bin:$PATH"
@@ -28,10 +28,10 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Load rbenv automatically by adding
 # the following to ~/.bash_profile:
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # RBEnv Completion
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Set default editor to vim
 # http://stackoverflow.com/a/2596835
