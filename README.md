@@ -22,7 +22,7 @@ Install Homebrew:
 Then, install these:
 
 ```shell
-brew install git multimarkdown reattach-to-user-namespace the_silver_searcher tree tmux vim watchman
+brew install git jq multimarkdown reattach-to-user-namespace the_silver_searcher tree tmux vim watchman
 ```
 
 Optionally, install the [quick-look plugins](https://github.com/sindresorhus/quick-look-plugins):
