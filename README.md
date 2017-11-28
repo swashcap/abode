@@ -81,4 +81,5 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | b
 * [tomislav/osx-terminal.app-colors-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
 * [Input from Font Bureau](http://input.fontbureau.com)
 * [Docker for Mac](https://www.docker.com/docker-mac)
+* [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
 
