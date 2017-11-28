@@ -74,6 +74,8 @@ Install [nvm](https://github.com/creationix/nvm) for managing Node.js versions:
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
 ```
 
+(Don't upgrade nvm until [creationix/nvm#1652](https://github.com/creationix/nvm/issues/1652) is closed.)
+
 ### Extras
 
 * [tomislav/osx-terminal.app-colors-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
