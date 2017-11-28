@@ -76,6 +76,24 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | b
 
 (Don't upgrade nvm until [creationix/nvm#1652](https://github.com/creationix/nvm/issues/1652) is closed.)
 
+### VS Code
+
+#### Download
+
+<https://code.visualstudio.com/Download>
+
+#### Configuration
+
+```json
+{
+    "editor.fontFamily": "Input Mono Condensed, Menlo, monospace",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true
+}
+```
+
 ### Extras
 
 * [tomislav/osx-terminal.app-colors-solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
